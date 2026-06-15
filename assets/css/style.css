@@ -282,20 +282,34 @@ h1, h2, h3, h4, h5, h6 {
     .footer-minimal { padding-top: 50px; }
     
     /* Improve mobile navbar spacing */
+    .navbar-toggler {
+        border: none;
+        box-shadow: none !important;
+        outline: none !important;
+    }
+    .navbar-collapse {
+        text-align: center;
+        background: #FFFFFF;
+        padding-top: 15px;
+    }
     .navbar-nav .nav-link {
         padding: 12px 0 !important;
         border-bottom: 1px solid var(--border-color);
+        display: block;
     }
     .navbar-nav {
-        margin-top: 15px;
+        margin-top: 0;
+    }
+    .d-flex.ms-lg-3 {
+        justify-content: center;
     }
     
     /* Stats grid mobile fix */
     .stat-minimal {
         border-left: none;
-        border-bottom: 2px solid var(--border-color);
+        border-bottom: none;
         padding-left: 0;
-        padding-bottom: 15px;
+        padding-bottom: 0;
     }
 }
 
