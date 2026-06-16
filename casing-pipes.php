@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $page_title = "Casing & Column Pipes | Revoxon Industries Pvt. Ltd.";
 $page_description = "Learn about Revoxon Industries Pvt. Ltd., our vision, mission, and our journey as a leading manufacturer of PVC and UPVC pipes in India.";
 include 'header.php';
@@ -6,7 +6,7 @@ include 'header.php';
 
     <!-- Main Content -->
     <main>
-    <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: linear-gradient(rgba(10, 77, 162, 0.85), rgba(30, 41, 59, 0.9)), url('assets/images/banner2.png') center/cover;">
+    <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: url('assets/images/banner2.png') center/cover;">
         <div class="container py-4">
             <h1 class="display-5 fw-bold animation-fade-up text-white">Casing & Column Pipes</h1>
             <nav aria-label="breadcrumb" class="animation-fade-up delay-1">
@@ -58,7 +58,7 @@ include 'header.php';
         <div class="container py-4">
             <div class="text-center mb-5 animate-on-scroll">
                 <h6 class="text-accent fw-bold text-uppercase mb-2">Technical Details</h6>
-                <h2 class="fw-bold text-secondary-color">Casing Pipes — Dimensions &amp; Rates</h2>
+                <h2 class="fw-bold text-secondary-color">Casing Pipes � Dimensions &amp; Rates</h2>
                 <p class="text-muted max-w-600 mx-auto mt-2">Conforming to Indian Standards <strong>IS: 12818</strong>. HSN Code: 391723. Prices are subject to change. CS = Casing Slotted | CM = Casing Mild (Plain).</p>
             </div>
 
@@ -84,7 +84,7 @@ include 'header.php';
                             <div class="card border-0 shadow-sm">
                                 <div class="card-header bg-white py-3 border-bottom d-flex flex-wrap justify-content-between align-items-center">
                                     <div>
-                                        <h5 class="fw-bold text-primary-color mb-1">Casing Pipes — SDR-33 &amp; SDR-29</h5>
+                                        <h5 class="fw-bold text-primary-color mb-1">Casing Pipes � SDR-33 &amp; SDR-29</h5>
                                         <p class="small text-muted mb-0">Borewell Casing Pipes conforming to IS: 12818 | HSN Code: 391723</p>
                                     </div>
                                     <span class="badge bg-slate-light text-navy-dark border px-2 py-1 mt-1 mt-sm-0" style="border-radius: 6px;">IS Marked</span>
@@ -99,18 +99,18 @@ include 'header.php';
                                                     <th>Length (Mtr)</th>
                                                     <th>Min. OD (mm)</th>
                                                     <th>Max. OD (mm)</th>
-                                                    <th>SDR -33 (₹)</th>
-                                                    <th>SDR -29 (₹)</th>
+                                                    <th>SDR -33 (?)</th>
+                                                    <th>SDR -29 (?)</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr><td><strong>100 ND</strong></td><td>4"</td><td>3</td><td>113.0</td><td>113.3</td><td>₹1520.00</td><td>₹1620.00</td></tr>
-                                                <tr><td><strong>125 ND</strong></td><td>5"</td><td>3</td><td>140.0</td><td>140.4</td><td>₹1700.00</td><td>₹1800.00</td></tr>
-                                                <tr><td><strong>150 ND</strong></td><td>6"</td><td>3</td><td>165.0</td><td>165.4</td><td>₹2640.00</td><td>₹2740.00</td></tr>
-                                                <tr><td><strong>175 ND</strong></td><td>7"</td><td>3</td><td>200.0</td><td>200.5</td><td>₹3500.00</td><td>₹3600.00</td></tr>
-                                                <tr><td><strong>200 ND</strong></td><td>8"</td><td>3</td><td>225.0</td><td>225.5</td><td>₹3700.00</td><td>₹3800.00</td></tr>
-                                                <tr><td><strong>225 ND</strong></td><td>9"</td><td>3</td><td>250.0</td><td>250.5</td><td>₹4600.00</td><td>₹4700.00</td></tr>
-                                                <tr><td><strong>250 ND</strong></td><td>10"</td><td>3</td><td>280.0</td><td>280.5</td><td>₹6100.00</td><td>₹6200.00</td></tr>
+                                                <tr><td><strong>100 ND</strong></td><td>4"</td><td>3</td><td>113.0</td><td>113.3</td><td>?1520.00</td><td>?1620.00</td></tr>
+                                                <tr><td><strong>125 ND</strong></td><td>5"</td><td>3</td><td>140.0</td><td>140.4</td><td>?1700.00</td><td>?1800.00</td></tr>
+                                                <tr><td><strong>150 ND</strong></td><td>6"</td><td>3</td><td>165.0</td><td>165.4</td><td>?2640.00</td><td>?2740.00</td></tr>
+                                                <tr><td><strong>175 ND</strong></td><td>7"</td><td>3</td><td>200.0</td><td>200.5</td><td>?3500.00</td><td>?3600.00</td></tr>
+                                                <tr><td><strong>200 ND</strong></td><td>8"</td><td>3</td><td>225.0</td><td>225.5</td><td>?3700.00</td><td>?3800.00</td></tr>
+                                                <tr><td><strong>225 ND</strong></td><td>9"</td><td>3</td><td>250.0</td><td>250.5</td><td>?4600.00</td><td>?4700.00</td></tr>
+                                                <tr><td><strong>250 ND</strong></td><td>10"</td><td>3</td><td>280.0</td><td>280.5</td><td>?6100.00</td><td>?6200.00</td></tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -123,7 +123,7 @@ include 'header.php';
                             <div class="card border-0 shadow-sm">
                                 <div class="card-header bg-white py-3 border-bottom d-flex flex-wrap justify-content-between align-items-center">
                                     <div>
-                                        <h5 class="fw-bold text-primary-color mb-1">Casing Pipes — IS: 12818 Classes</h5>
+                                        <h5 class="fw-bold text-primary-color mb-1">Casing Pipes � IS: 12818 Classes</h5>
                                         <p class="small text-muted mb-0">Classes: Eco, Medium, Standard, Standard Gold, Heavy | Standard Length 3 Meters</p>
                                     </div>
                                     <span class="badge bg-slate-light text-navy-dark border px-2 py-1 mt-1 mt-sm-0" style="border-radius: 6px;">IS: 12818</span>
@@ -134,20 +134,20 @@ include 'header.php';
                                             <thead class="table-light">
                                                 <tr>
                                                     <th>Size (Inch)</th>
-                                                    <th>ECO/V4 (₹)</th>
-                                                    <th>Medium (₹)</th>
-                                                    <th>Standard (₹)</th>
-                                                    <th>Standard Gold (₹)</th>
-                                                    <th>Heavy (₹)</th>
+                                                    <th>ECO/V4 (?)</th>
+                                                    <th>Medium (?)</th>
+                                                    <th>Standard (?)</th>
+                                                    <th>Standard Gold (?)</th>
+                                                    <th>Heavy (?)</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr><td><strong>1.25"</strong></td><td>₹437.50</td><td>₹462.50</td><td>—</td><td>₹625.00</td><td>—</td></tr>
-                                                <tr><td><strong>1.5"</strong></td><td>—</td><td>₹600.00</td><td>₹725.00</td><td>—</td><td>—</td></tr>
-                                                <tr><td><strong>2"</strong></td><td>₹692.50</td><td>₹800.00</td><td>₹875.00</td><td>₹1025.00</td><td>₹1202.50</td></tr>
-                                                <tr><td><strong>2.5"</strong></td><td>—</td><td>₹892.50</td><td>₹1030.00</td><td>₹1250.00</td><td>₹1750.00</td></tr>
-                                                <tr><td><strong>3"</strong></td><td>—</td><td>₹1225.00</td><td>₹1500.00</td><td>₹1775.00</td><td>₹2350.00</td></tr>
-                                                <tr><td><strong>4"</strong></td><td>—</td><td>₹1862.50</td><td>₹2362.50</td><td>₹2612.50</td><td>₹3850.00</td></tr>
+                                                <tr><td><strong>1.25"</strong></td><td>?437.50</td><td>?462.50</td><td>�</td><td>?625.00</td><td>�</td></tr>
+                                                <tr><td><strong>1.5"</strong></td><td>�</td><td>?600.00</td><td>?725.00</td><td>�</td><td>�</td></tr>
+                                                <tr><td><strong>2"</strong></td><td>?692.50</td><td>?800.00</td><td>?875.00</td><td>?1025.00</td><td>?1202.50</td></tr>
+                                                <tr><td><strong>2.5"</strong></td><td>�</td><td>?892.50</td><td>?1030.00</td><td>?1250.00</td><td>?1750.00</td></tr>
+                                                <tr><td><strong>3"</strong></td><td>�</td><td>?1225.00</td><td>?1500.00</td><td>?1775.00</td><td>?2350.00</td></tr>
+                                                <tr><td><strong>4"</strong></td><td>�</td><td>?1862.50</td><td>?2362.50</td><td>?2612.50</td><td>?3850.00</td></tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -160,7 +160,7 @@ include 'header.php';
                             <div class="card border-0 shadow-sm">
                                 <div class="card-header bg-white py-3 border-bottom d-flex flex-wrap justify-content-between align-items-center">
                                     <div>
-                                        <h5 class="fw-bold text-primary-color mb-1">Casing Pipes — Silver Quality</h5>
+                                        <h5 class="fw-bold text-primary-color mb-1">Casing Pipes � Silver Quality</h5>
                                         <p class="small text-muted mb-0">Economical Silver Grade Borewell Casing Pipes | HSN Code: 391723</p>
                                     </div>
                                     <span class="badge bg-slate-light text-navy-dark border px-2 py-1 mt-1 mt-sm-0" style="border-radius: 6px;">Silver Grade</span>
@@ -175,18 +175,18 @@ include 'header.php';
                                                     <th>Length (Mtr)</th>
                                                     <th>Min. OD (mm)</th>
                                                     <th>Max. OD (mm)</th>
-                                                    <th>CS Rate (₹)</th>
-                                                    <th>CM Rate (₹)</th>
+                                                    <th>CS Rate (?)</th>
+                                                    <th>CM Rate (?)</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr><td><strong>100 ND</strong></td><td>4"</td><td>3</td><td>113.0</td><td>113.3</td><td>—</td><td>₹2010.00</td></tr>
-                                                <tr><td><strong>125 ND</strong></td><td>5"</td><td>3</td><td>140.0</td><td>140.4</td><td>₹2600.00</td><td>₹3200.00</td></tr>
-                                                <tr><td><strong>150 ND</strong></td><td>6"</td><td>3</td><td>165.0</td><td>165.4</td><td>₹3300.00</td><td>₹4300.00</td></tr>
-                                                <tr><td><strong>175 ND</strong></td><td>7"</td><td>3</td><td>200.0</td><td>200.5</td><td>₹4990.00</td><td>₹6100.00</td></tr>
-                                                <tr><td><strong>200 ND</strong></td><td>8"</td><td>3</td><td>225.0</td><td>225.5</td><td>₹5800.00</td><td>₹7800.00</td></tr>
-                                                <tr><td><strong>225 ND</strong></td><td>9"</td><td>3</td><td>250.0</td><td>250.5</td><td>₹7500.00</td><td>₹9700.00</td></tr>
-                                                <tr><td><strong>250 ND</strong></td><td>10"</td><td>3</td><td>280.0</td><td>280.5</td><td>₹9600.00</td><td>₹12200.00</td></tr>
+                                                <tr><td><strong>100 ND</strong></td><td>4"</td><td>3</td><td>113.0</td><td>113.3</td><td>�</td><td>?2010.00</td></tr>
+                                                <tr><td><strong>125 ND</strong></td><td>5"</td><td>3</td><td>140.0</td><td>140.4</td><td>?2600.00</td><td>?3200.00</td></tr>
+                                                <tr><td><strong>150 ND</strong></td><td>6"</td><td>3</td><td>165.0</td><td>165.4</td><td>?3300.00</td><td>?4300.00</td></tr>
+                                                <tr><td><strong>175 ND</strong></td><td>7"</td><td>3</td><td>200.0</td><td>200.5</td><td>?4990.00</td><td>?6100.00</td></tr>
+                                                <tr><td><strong>200 ND</strong></td><td>8"</td><td>3</td><td>225.0</td><td>225.5</td><td>?5800.00</td><td>?7800.00</td></tr>
+                                                <tr><td><strong>225 ND</strong></td><td>9"</td><td>3</td><td>250.0</td><td>250.5</td><td>?7500.00</td><td>?9700.00</td></tr>
+                                                <tr><td><strong>250 ND</strong></td><td>10"</td><td>3</td><td>280.0</td><td>280.5</td><td>?9600.00</td><td>?12200.00</td></tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -250,7 +250,7 @@ include 'header.php';
                             <h6 class="fw-bold text-primary-color mb-2">Quick Specs</h6>
                             <ul class="list-unstyled mb-0 small text-muted">
                                 <li class="mb-1"><i class="fas fa-ruler me-2 text-accent"></i>Standard Length: 3 Metres</li>
-                                <li class="mb-1"><i class="fas fa-circle me-2 text-accent"></i>Diameter: 4" to 10" (100–250 ND)</li>
+                                <li class="mb-1"><i class="fas fa-circle me-2 text-accent"></i>Diameter: 4" to 10" (100�250 ND)</li>
                                 <li class="mb-1"><i class="fas fa-certificate me-2 text-accent"></i>Standard: IS: 12818</li>
                                 <li class="mb-1"><i class="fas fa-barcode me-2 text-accent"></i>HSN Code: 391723</li>
                                 <li class="mb-1"><i class="fas fa-layer-group me-2 text-accent"></i>Types: CS (Slotted) &amp; CM (Plain)</li>
@@ -266,7 +266,7 @@ include 'header.php';
     <?php include 'terms-conditions.php'; ?>
 
     <!-- Footer -->
-    <footer class="footer bg-secondary-color text-white pt-5 pb-3">
+    <footer class="footer bg-primary-color text-white pt-5 pb-3">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
@@ -301,7 +301,7 @@ include 'header.php';
                     <ul class="list-unstyled contact-info">
                         <li class="mb-3 d-flex align-items-start">
                             <i class="fas fa-map-marker-alt text-accent me-3 mt-1"></i>
-                            <span class="text-light-opacity">338/01, Majara Chokdi, NH-48, Vill & Ta – Tajpur, Prantij, Sabarkantha, Gujarat - 383205</span>
+                            <span class="text-light-opacity">338/01, Majara Chokdi, NH-48, Vill & Ta � Tajpur, Prantij, Sabarkantha, Gujarat - 383205</span>
                         </li>
                         <li class="mb-3 d-flex align-items-start">
                             <i class="fas fa-phone-alt text-accent me-3 mt-1"></i>

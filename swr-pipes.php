@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $page_title = "SWR Pipes | Revoxon Industries Pvt. Ltd.";
 $page_description = "Learn about Revoxon Industries Pvt. Ltd., our vision, mission, and our journey as a leading manufacturer of PVC and UPVC pipes in India.";
 include 'header.php';
@@ -6,7 +6,7 @@ include 'header.php';
 
     <!-- Main Content -->
     <main>
-    <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: linear-gradient(rgba(10, 77, 162, 0.85), rgba(30, 41, 59, 0.9)), url('assets/images/banner2.png') center/cover;">
+    <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: url('assets/images/banner2.png') center/cover;">
         <div class="container py-4">
             <h1 class="display-5 fw-bold animation-fade-up text-white">SWR Pipes</h1>
             <nav aria-label="breadcrumb" class="animation-fade-up delay-1">
@@ -93,15 +93,15 @@ include 'header.php';
                                     <thead class="table-light">
                                         <tr>
                                             <th>Size (mm)</th>
-                                            <th>Type A (Rate/Pc ₹)</th>
-                                            <th>Type B (Rate/Pc ₹)</th>
+                                            <th>Type A (Rate/Pc ?)</th>
+                                            <th>Type B (Rate/Pc ?)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr><td><strong>75 mm</strong></td><td>₹399.00</td><td>₹740.00</td></tr>
-                                        <tr><td><strong>90 mm</strong></td><td>₹550.00</td><td>₹845.00</td></tr>
-                                        <tr><td><strong>110 mm</strong></td><td>₹760.00</td><td>₹1120.00</td></tr>
-                                        <tr><td><strong>160 mm</strong></td><td>₹1625.00</td><td>₹2060.00</td></tr>
+                                        <tr><td><strong>75 mm</strong></td><td>?399.00</td><td>?740.00</td></tr>
+                                        <tr><td><strong>90 mm</strong></td><td>?550.00</td><td>?845.00</td></tr>
+                                        <tr><td><strong>110 mm</strong></td><td>?760.00</td><td>?1120.00</td></tr>
+                                        <tr><td><strong>160 mm</strong></td><td>?1625.00</td><td>?2060.00</td></tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -125,15 +125,15 @@ include 'header.php';
                                     <thead class="table-light">
                                         <tr>
                                             <th>Size (mm)</th>
-                                            <th>Type A (Rate/Pc ₹)</th>
-                                            <th>Type B (Rate/Pc ₹)</th>
+                                            <th>Type A (Rate/Pc ?)</th>
+                                            <th>Type B (Rate/Pc ?)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr><td><strong>75 mm</strong></td><td>₹385.00</td><td>₹730.00</td></tr>
-                                        <tr><td><strong>90 mm</strong></td><td>₹535.00</td><td>₹838.00</td></tr>
-                                        <tr><td><strong>110 mm</strong></td><td>₹750.00</td><td>₹1105.00</td></tr>
-                                        <tr><td><strong>160 mm</strong></td><td>₹1610.00</td><td>₹2040.00</td></tr>
+                                        <tr><td><strong>75 mm</strong></td><td>?385.00</td><td>?730.00</td></tr>
+                                        <tr><td><strong>90 mm</strong></td><td>?535.00</td><td>?838.00</td></tr>
+                                        <tr><td><strong>110 mm</strong></td><td>?750.00</td><td>?1105.00</td></tr>
+                                        <tr><td><strong>160 mm</strong></td><td>?1610.00</td><td>?2040.00</td></tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -157,15 +157,15 @@ include 'header.php';
                                     <thead class="table-light">
                                         <tr>
                                             <th>Size (mm)</th>
-                                            <th>2 Ft Length (₹)</th>
-                                            <th>3 Ft Length (₹)</th>
-                                            <th>4 Ft Length (₹)</th>
-                                            <th>5 Ft Length (₹)</th>
+                                            <th>2 Ft Length (?)</th>
+                                            <th>3 Ft Length (?)</th>
+                                            <th>4 Ft Length (?)</th>
+                                            <th>5 Ft Length (?)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr><td><strong>75 mm</strong></td><td>₹118.00</td><td>₹163.00</td><td>₹204.00</td><td>₹241.00</td></tr>
-                                        <tr><td><strong>110 mm</strong></td><td>₹213.00</td><td>₹301.00</td><td>₹380.00</td><td>₹451.00</td></tr>
+                                        <tr><td><strong>75 mm</strong></td><td>?118.00</td><td>?163.00</td><td>?204.00</td><td>?241.00</td></tr>
+                                        <tr><td><strong>110 mm</strong></td><td>?213.00</td><td>?301.00</td><td>?380.00</td><td>?451.00</td></tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -180,7 +180,7 @@ include 'header.php';
     <?php include 'terms-conditions.php'; ?>
 
     <!-- Footer -->
-    <footer class="footer bg-secondary-color text-white pt-5 pb-3">
+    <footer class="footer bg-primary-color text-white pt-5 pb-3">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
@@ -215,7 +215,7 @@ include 'header.php';
                     <ul class="list-unstyled contact-info">
                         <li class="mb-3 d-flex align-items-start">
                             <i class="fas fa-map-marker-alt text-accent me-3 mt-1"></i>
-                            <span class="text-light-opacity">338/01, Majara Chokdi, NH-48, Vill & Ta – Tajpur, Prantij, Sabarkantha, Gujarat - 383205</span>
+                            <span class="text-light-opacity">338/01, Majara Chokdi, NH-48, Vill & Ta � Tajpur, Prantij, Sabarkantha, Gujarat - 383205</span>
                         </li>
                         <li class="mb-3 d-flex align-items-start">
                             <i class="fas fa-phone-alt text-accent me-3 mt-1"></i>

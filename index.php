@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $page_title = "Revoxon Industries Pvt. Ltd. | Premium PVC & UPVC Pipes Manufacturer";
 $page_description = "Revoxon Industries Pvt. Ltd. is a leading manufacturer of premium PVC Pipes, UPVC Pipes, CPVC Pipes, SWR Pipes, and Construction Chemicals in India.";
 include 'header.php';
@@ -264,7 +264,7 @@ include 'header.php';
     <section class="dark-section py-0 animate-on-scroll">
         <div class="row g-0">
             <div class="col-lg-5 p-5 d-flex flex-column justify-content-center" style="background: url('assets/images/gallery_11.jpeg') center/cover; position: relative; min-height: 400px;">
-                <div style="position: absolute; top:0; left:0; right:0; bottom:0; background: rgba(30, 41, 59, 0.85);"></div>
+                <div style="position: absolute; top:0; left:0; right:0; bottom:0; background: rgba(11, 32, 70, 0.90);"></div>
                 <div style="position: relative; z-index: 1;">
                     <h2 class="display-6 fw-bold mb-4 text-white">Continuous Innovation Through Thought Leadership.</h2>
                     <p class="mb-4 text-white opacity-75" style="font-size: 1.1rem;">
@@ -282,7 +282,7 @@ include 'header.php';
                         </div>
                     </div>
                     <div class="col-md-4 p-0">
-                        <div class="dark-feature-card text-center d-flex flex-column justify-content-center align-items-center" style="background: #083b7c;">
+                        <div class="dark-feature-card text-center d-flex flex-column justify-content-center align-items-center" style="background: var(--accent-color);">
                             <h3 class="fw-bold mb-3"><i class="fas fa-lightbulb fs-1"></i></h3>
                             <h4 class="fw-bold">Leading</h4>
                             <p class="mb-0 text-white-50">Innovators in piping systems</p>
@@ -323,7 +323,7 @@ include 'header.php';
 </main>
 
     <!-- Footer -->
-    <footer class="footer bg-secondary-color text-white pt-5 pb-3">
+    <footer class="footer bg-primary-color text-white pt-5 pb-3">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">

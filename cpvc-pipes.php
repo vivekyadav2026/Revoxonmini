@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $page_title = "CPVC Pipes | Revoxon Industries Pvt. Ltd.";
 $page_description = "Learn about Revoxon Industries Pvt. Ltd., our vision, mission, and our journey as a leading manufacturer of PVC and UPVC pipes in India.";
 include 'header.php';
@@ -6,7 +6,7 @@ include 'header.php';
 
     <!-- Main Content -->
     <main>
-    <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: linear-gradient(rgba(10, 77, 162, 0.85), rgba(30, 41, 59, 0.9)), url('assets/images/banner2.png') center/cover;">
+    <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: url('assets/images/banner2.png') center/cover;">
         <div class="container py-4">
             <h1 class="display-5 fw-bold animation-fade-up text-white">CPVC Pipes</h1>
             <nav aria-label="breadcrumb" class="animation-fade-up delay-1">
@@ -27,7 +27,7 @@ include 'header.php';
                 </div>
                 <div class="col-lg-6 animate-on-scroll delay-1">
                     <h2 class="fw-bold text-secondary-color mb-3">CPVC Pipes</h2>
-                    <p class="text-muted fs-5 mb-4">Capable of withstanding temperatures up to 93�C, perfect for hot and cold water distribution.</p>
+                    <p class="text-muted fs-5 mb-4">Capable of withstanding temperatures up to 93?C, perfect for hot and cold water distribution.</p>
                     <p class="text-muted mb-4">Revoxon Industries manufactures world-class CPVC Pipes using advanced extrusion technology. Our products undergo rigorous lab testing to ensure they meet international quality standards and provide a long-lasting, leak-proof experience.</p>
                     <ul class="list-unstyled mb-4 text-muted">
                         <li class="mb-2"><i class="fas fa-check text-primary-color me-2"></i> High Durability & Strength</li>
@@ -58,7 +58,7 @@ include 'header.php';
         <div class="container py-4">
             <div class="text-center mb-5 animate-on-scroll">
                 <h6 class="text-accent fw-bold text-uppercase mb-2">Technical Details</h6>
-                <h2 class="fw-bold text-secondary-color">CPVC SDR Pipes — Dimensions &amp; Rates</h2>
+                <h2 class="fw-bold text-secondary-color">CPVC SDR Pipes � Dimensions &amp; Rates</h2>
                 <p class="text-muted max-w-600 mx-auto mt-2">Conforming to SDR-11 &amp; SDR-13.5 standards as per ASTM D-2846 | HSN Code: 391723. Prices are subject to change.</p>
             </div>
 
@@ -81,7 +81,7 @@ include 'header.php';
                             <div class="card border-0 shadow-sm">
                                 <div class="card-header bg-white py-3 border-bottom d-flex flex-wrap justify-content-between align-items-center">
                                     <div>
-                                        <h5 class="fw-bold text-primary-color mb-1">CPVC Pipes — SDR 13.5</h5>
+                                        <h5 class="fw-bold text-primary-color mb-1">CPVC Pipes � SDR 13.5</h5>
                                         <p class="small text-muted mb-0">Standard Wall Thickness hot & cold water pipes | HSN: 391723</p>
                                     </div>
                                     <span class="badge bg-slate-light text-navy-dark border px-2 py-1 mt-1 mt-sm-0" style="border-radius: 6px;">SDR 13.5</span>
@@ -94,17 +94,17 @@ include 'header.php';
                                                     <th>Size (Inch)</th>
                                                     <th>Size (MM)</th>
                                                     <th>Std Packing (3M)</th>
-                                                    <th>Rate / Mtr (₹)</th>
-                                                    <th>Rate / 3 Mtr (₹)</th>
+                                                    <th>Rate / Mtr (?)</th>
+                                                    <th>Rate / 3 Mtr (?)</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr><td><strong>1/2"</strong></td><td>15</td><td>75 NOS</td><td>₹53.00</td><td>₹159.00</td></tr>
-                                                <tr><td><strong>3/4"</strong></td><td>20</td><td>60 NOS</td><td>₹94.00</td><td>₹282.00</td></tr>
-                                                <tr><td><strong>1"</strong></td><td>25</td><td>40 NOS</td><td>₹148.50</td><td>₹455.50</td></tr>
-                                                <tr><td><strong>1 1/4"</strong></td><td>32</td><td>25 NOS</td><td>₹223.00</td><td>₹669.00</td></tr>
-                                                <tr><td><strong>1 1/2"</strong></td><td>40</td><td>15 NOS</td><td>₹307.00</td><td>₹921.00</td></tr>
-                                                <tr><td><strong>2"</strong></td><td>50</td><td>10 NOS</td><td>₹514.00</td><td>₹1,542.00</td></tr>
+                                                <tr><td><strong>1/2"</strong></td><td>15</td><td>75 NOS</td><td>?53.00</td><td>?159.00</td></tr>
+                                                <tr><td><strong>3/4"</strong></td><td>20</td><td>60 NOS</td><td>?94.00</td><td>?282.00</td></tr>
+                                                <tr><td><strong>1"</strong></td><td>25</td><td>40 NOS</td><td>?148.50</td><td>?455.50</td></tr>
+                                                <tr><td><strong>1 1/4"</strong></td><td>32</td><td>25 NOS</td><td>?223.00</td><td>?669.00</td></tr>
+                                                <tr><td><strong>1 1/2"</strong></td><td>40</td><td>15 NOS</td><td>?307.00</td><td>?921.00</td></tr>
+                                                <tr><td><strong>2"</strong></td><td>50</td><td>10 NOS</td><td>?514.00</td><td>?1,542.00</td></tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -117,7 +117,7 @@ include 'header.php';
                             <div class="card border-0 shadow-sm">
                                 <div class="card-header bg-white py-3 border-bottom d-flex flex-wrap justify-content-between align-items-center">
                                     <div>
-                                        <h5 class="fw-bold text-primary-color mb-1">CPVC Pipes — SDR 11</h5>
+                                        <h5 class="fw-bold text-primary-color mb-1">CPVC Pipes � SDR 11</h5>
                                         <p class="small text-muted mb-0">Thicker / High-Pressure hot & cold water pipes | HSN: 391723</p>
                                     </div>
                                     <span class="badge bg-slate-light text-navy-dark border px-2 py-1 mt-1 mt-sm-0" style="border-radius: 6px;">SDR 11</span>
@@ -130,17 +130,17 @@ include 'header.php';
                                                     <th>Size (Inch)</th>
                                                     <th>Size (MM)</th>
                                                     <th>Std Packing (3M)</th>
-                                                    <th>Rate / Mtr (₹)</th>
-                                                    <th>Rate / 3 Mtr (₹)</th>
+                                                    <th>Rate / Mtr (?)</th>
+                                                    <th>Rate / 3 Mtr (?)</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr><td><strong>1/2"</strong></td><td>15</td><td>75 NOS</td><td>₹62.00</td><td>₹186.00</td></tr>
-                                                <tr><td><strong>3/4"</strong></td><td>20</td><td>60 NOS</td><td>₹108.00</td><td>₹324.00</td></tr>
-                                                <tr><td><strong>1"</strong></td><td>25</td><td>40 NOS</td><td>₹176.00</td><td>₹528.00</td></tr>
-                                                <tr><td><strong>1 1/4"</strong></td><td>32</td><td>25 NOS</td><td>₹255.00</td><td>₹765.00</td></tr>
-                                                <tr><td><strong>1 1/2"</strong></td><td>40</td><td>15 NOS</td><td>₹370.00</td><td>₹1,110.00</td></tr>
-                                                <tr><td><strong>2"</strong></td><td>50</td><td>10 NOS</td><td>₹610.00</td><td>₹1,830.00</td></tr>
+                                                <tr><td><strong>1/2"</strong></td><td>15</td><td>75 NOS</td><td>?62.00</td><td>?186.00</td></tr>
+                                                <tr><td><strong>3/4"</strong></td><td>20</td><td>60 NOS</td><td>?108.00</td><td>?324.00</td></tr>
+                                                <tr><td><strong>1"</strong></td><td>25</td><td>40 NOS</td><td>?176.00</td><td>?528.00</td></tr>
+                                                <tr><td><strong>1 1/4"</strong></td><td>32</td><td>25 NOS</td><td>?255.00</td><td>?765.00</td></tr>
+                                                <tr><td><strong>1 1/2"</strong></td><td>40</td><td>15 NOS</td><td>?370.00</td><td>?1,110.00</td></tr>
+                                                <tr><td><strong>2"</strong></td><td>50</td><td>10 NOS</td><td>?610.00</td><td>?1,830.00</td></tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -157,7 +157,7 @@ include 'header.php';
                         <div class="mt-3 p-3 bg-white rounded shadow-sm text-start">
                             <h6 class="fw-bold text-primary-color mb-2">Quick Specs</h6>
                             <ul class="list-unstyled mb-0 small text-muted">
-                                <li class="mb-2"><i class="fas fa-check text-primary-color me-2"></i> Working Temp: Up to 93°C</li>
+                                <li class="mb-2"><i class="fas fa-check text-primary-color me-2"></i> Working Temp: Up to 93�C</li>
                                 <li class="mb-2"><i class="fas fa-check text-primary-color me-2"></i> Standard: ASTM D-2846</li>
                                 <li class="mb-2"><i class="fas fa-check text-primary-color me-2"></i> SDR Ratio: SDR 11 & SDR 13.5</li>
                                 <li><i class="fas fa-check text-primary-color me-2"></i> Clean & non-toxic formulation</li>
@@ -173,7 +173,7 @@ include 'header.php';
     <?php include 'terms-conditions.php'; ?>
 
     <!-- Footer -->
-    <footer class="footer bg-secondary-color text-white pt-5 pb-3">
+    <footer class="footer bg-primary-color text-white pt-5 pb-3">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
@@ -208,7 +208,7 @@ include 'header.php';
                     <ul class="list-unstyled contact-info">
                         <li class="mb-3 d-flex align-items-start">
                             <i class="fas fa-map-marker-alt text-accent me-3 mt-1"></i>
-                            <span class="text-light-opacity">338/01, Majara Chokdi, NH-48, Vill & Ta – Tajpur, Prantij, Sabarkantha, Gujarat - 383205</span>
+                            <span class="text-light-opacity">338/01, Majara Chokdi, NH-48, Vill & Ta � Tajpur, Prantij, Sabarkantha, Gujarat - 383205</span>
                         </li>
                         <li class="mb-3 d-flex align-items-start">
                             <i class="fas fa-phone-alt text-accent me-3 mt-1"></i>

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $page_title = "UPVC Plumbing Pipes | Revoxon Industries Pvt. Ltd.";
 $page_description = "Learn about Revoxon Industries Pvt. Ltd., our vision, mission, and our journey as a leading manufacturer of PVC and UPVC pipes in India.";
 include 'header.php';
@@ -6,7 +6,7 @@ include 'header.php';
 
     <!-- Main Content -->
     <main>
-    <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: linear-gradient(rgba(10, 77, 162, 0.85), rgba(30, 41, 59, 0.9)), url('assets/images/banner2.png') center/cover;">
+    <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: url('assets/images/banner2.png') center/cover;">
         <div class="container py-4">
             <h1 class="display-5 fw-bold animation-fade-up text-white">UPVC Plumbing Pipes</h1>
             <nav aria-label="breadcrumb" class="animation-fade-up delay-1">
@@ -58,7 +58,7 @@ include 'header.php';
         <div class="container py-4">
             <div class="text-center mb-5 animate-on-scroll">
                 <h6 class="text-accent fw-bold text-uppercase mb-2">Technical Details</h6>
-                <h2 class="fw-bold text-secondary-color">UPVC ASTM Pipes — Dimensions &amp; Rates</h2>
+                <h2 class="fw-bold text-secondary-color">UPVC ASTM Pipes � Dimensions &amp; Rates</h2>
                 <p class="text-muted max-w-600 mx-auto mt-2">Conforming to ASTM Standards | HSN Code: 391723. Prices are subject to change.</p>
             </div>
 
@@ -81,7 +81,7 @@ include 'header.php';
                             <div class="card border-0 shadow-sm">
                                 <div class="card-header bg-white py-3 border-bottom d-flex flex-wrap justify-content-between align-items-center">
                                     <div>
-                                        <h5 class="fw-bold text-primary-color mb-1">UPVC Pipes — Schedule 40</h5>
+                                        <h5 class="fw-bold text-primary-color mb-1">UPVC Pipes � Schedule 40</h5>
                                         <p class="small text-muted mb-0">Standard Wall Thickness Pipes | HSN Code: 391723</p>
                                     </div>
                                     <span class="badge bg-slate-light text-navy-dark border px-2 py-1 mt-1 mt-sm-0" style="border-radius: 6px;">ASTM D1785</span>
@@ -93,19 +93,19 @@ include 'header.php';
                                                 <tr>
                                                     <th>Inch</th>
                                                     <th>MM</th>
-                                                    <th>6 MTR (₹)</th>
-                                                    <th>3 MTR (₹)</th>
+                                                    <th>6 MTR (?)</th>
+                                                    <th>3 MTR (?)</th>
                                                     <th>6M Packing</th>
                                                     <th>3M Packing</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr><td><strong>1/2"</strong></td><td>15</td><td>₹380.00</td><td>₹190.00</td><td>30 NOS</td><td>50 NOS</td></tr>
-                                                <tr><td><strong>3/4"</strong></td><td>20</td><td>₹490.00</td><td>₹245.00</td><td>20 NOS</td><td>30 NOS</td></tr>
-                                                <tr><td><strong>1"</strong></td><td>25</td><td>₹780.00</td><td>₹390.00</td><td>15 NOS</td><td>25 NOS</td></tr>
-                                                <tr><td><strong>1 1/4"</strong></td><td>32</td><td>₹1020.00</td><td>₹510.00</td><td>10 NOS</td><td>20 NOS</td></tr>
-                                                <tr><td><strong>1 1/2"</strong></td><td>40</td><td>₹1205.00</td><td>₹603.00</td><td>5 NOS</td><td>10 NOS</td></tr>
-                                                <tr><td><strong>2"</strong></td><td>50</td><td>₹1610.00</td><td>₹805.00</td><td>3 NOS</td><td>6 NOS</td></tr>
+                                                <tr><td><strong>1/2"</strong></td><td>15</td><td>?380.00</td><td>?190.00</td><td>30 NOS</td><td>50 NOS</td></tr>
+                                                <tr><td><strong>3/4"</strong></td><td>20</td><td>?490.00</td><td>?245.00</td><td>20 NOS</td><td>30 NOS</td></tr>
+                                                <tr><td><strong>1"</strong></td><td>25</td><td>?780.00</td><td>?390.00</td><td>15 NOS</td><td>25 NOS</td></tr>
+                                                <tr><td><strong>1 1/4"</strong></td><td>32</td><td>?1020.00</td><td>?510.00</td><td>10 NOS</td><td>20 NOS</td></tr>
+                                                <tr><td><strong>1 1/2"</strong></td><td>40</td><td>?1205.00</td><td>?603.00</td><td>5 NOS</td><td>10 NOS</td></tr>
+                                                <tr><td><strong>2"</strong></td><td>50</td><td>?1610.00</td><td>?805.00</td><td>3 NOS</td><td>6 NOS</td></tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -118,7 +118,7 @@ include 'header.php';
                             <div class="card border-0 shadow-sm">
                                 <div class="card-header bg-white py-3 border-bottom d-flex flex-wrap justify-content-between align-items-center">
                                     <div>
-                                        <h5 class="fw-bold text-primary-color mb-1">UPVC Pipes — Schedule 80</h5>
+                                        <h5 class="fw-bold text-primary-color mb-1">UPVC Pipes � Schedule 80</h5>
                                         <p class="small text-muted mb-0">Extra Heavy-Duty Wall Thickness Pipes | HSN Code: 391723</p>
                                     </div>
                                     <span class="badge bg-slate-light text-navy-dark border px-2 py-1 mt-1 mt-sm-0" style="border-radius: 6px;">ASTM D1785</span>
@@ -130,18 +130,18 @@ include 'header.php';
                                                 <tr>
                                                     <th>Inch</th>
                                                     <th>MM</th>
-                                                    <th>6 MTR (₹)</th>
-                                                    <th>3 MTR (₹)</th>
+                                                    <th>6 MTR (?)</th>
+                                                    <th>3 MTR (?)</th>
                                                     <th>6M Packing</th>
                                                     <th>3M Packing</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr><td><strong>1/2"</strong></td><td>15</td><td>₹480.00</td><td>₹240.00</td><td>30 NOS</td><td>50 NOS</td></tr>
-                                                <tr><td><strong>3/4"</strong></td><td>20</td><td>₹630.00</td><td>₹315.00</td><td>20 NOS</td><td>30 NOS</td></tr>
-                                                <tr><td><strong>1"</strong></td><td>25</td><td>₹980.00</td><td>₹490.00</td><td>15 NOS</td><td>25 NOS</td></tr>
-                                                <tr><td><strong>1 1/4"</strong></td><td>32</td><td>₹1350.00</td><td>₹675.00</td><td>10 NOS</td><td>20 NOS</td></tr>
-                                                <tr><td><strong>1 1/2"</strong></td><td>40</td><td>₹1680.00</td><td>₹840.00</td><td>5 NOS</td><td>10 NOS</td></tr>
+                                                <tr><td><strong>1/2"</strong></td><td>15</td><td>?480.00</td><td>?240.00</td><td>30 NOS</td><td>50 NOS</td></tr>
+                                                <tr><td><strong>3/4"</strong></td><td>20</td><td>?630.00</td><td>?315.00</td><td>20 NOS</td><td>30 NOS</td></tr>
+                                                <tr><td><strong>1"</strong></td><td>25</td><td>?980.00</td><td>?490.00</td><td>15 NOS</td><td>25 NOS</td></tr>
+                                                <tr><td><strong>1 1/4"</strong></td><td>32</td><td>?1350.00</td><td>?675.00</td><td>10 NOS</td><td>20 NOS</td></tr>
+                                                <tr><td><strong>1 1/2"</strong></td><td>40</td><td>?1680.00</td><td>?840.00</td><td>5 NOS</td><td>10 NOS</td></tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -175,7 +175,7 @@ include 'header.php';
     <?php include 'terms-conditions.php'; ?>
 
     <!-- Footer -->
-    <footer class="footer bg-secondary-color text-white pt-5 pb-3">
+    <footer class="footer bg-primary-color text-white pt-5 pb-3">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
@@ -210,7 +210,7 @@ include 'header.php';
                     <ul class="list-unstyled contact-info">
                         <li class="mb-3 d-flex align-items-start">
                             <i class="fas fa-map-marker-alt text-accent me-3 mt-1"></i>
-                            <span class="text-light-opacity">338/01, Majara Chokdi, NH-48, Vill & Ta – Tajpur, Prantij, Sabarkantha, Gujarat - 383205</span>
+                            <span class="text-light-opacity">338/01, Majara Chokdi, NH-48, Vill & Ta � Tajpur, Prantij, Sabarkantha, Gujarat - 383205</span>
                         </li>
                         <li class="mb-3 d-flex align-items-start">
                             <i class="fas fa-phone-alt text-accent me-3 mt-1"></i>

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $page_title = "Agriculture Pipes | Revoxon Industries Pvt. Ltd.";
 $page_description = "Learn about Revoxon Industries Pvt. Ltd., our vision, mission, and our journey as a leading manufacturer of PVC and UPVC pipes in India.";
 include 'header.php';
@@ -6,7 +6,7 @@ include 'header.php';
 
     <!-- Main Content -->
     <main>
-    <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: linear-gradient(rgba(10, 77, 162, 0.85), rgba(30, 41, 59, 0.9)), url('assets/images/banner2.png') center/cover;">
+    <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: url('assets/images/banner2.png') center/cover;">
         <div class="container py-4">
             <h1 class="display-5 fw-bold animation-fade-up text-white">Agriculture Pipes</h1>
             <nav aria-label="breadcrumb" class="animation-fade-up delay-1">
@@ -82,7 +82,7 @@ include 'header.php';
                                 <h4 class="fw-bold text-primary-color mb-1">Agri Pipes Rate List</h4>
                                 <p class="small text-muted mb-0">Conforming to IS 1784 & 4985-2021 | HSN Code: 391723</p>
                             </div>
-                            <span class="badge bg-slate-light text-navy-dark border px-3 py-2 mt-2 mt-sm-0" style="border-radius: 6px;">Rates: ₹ Per Meter</span>
+                            <span class="badge bg-slate-light text-navy-dark border px-3 py-2 mt-2 mt-sm-0" style="border-radius: 6px;">Rates: ? Per Meter</span>
                         </div>
                         <div class="card-body p-0">
                             <div class="table-responsive">
@@ -91,203 +91,203 @@ include 'header.php';
                                         <tr>
                                             <th rowspan="2" class="align-middle">Size (Inches)</th>
                                             <th rowspan="2" class="align-middle">Size (OD mm)</th>
-                                            <th colspan="5" class="border-bottom">Rate Per Meter (₹) by Working Pressure / Class</th>
+                                            <th colspan="5" class="border-bottom">Rate Per Meter (?) by Working Pressure / Class</th>
                                         </tr>
                                         <tr>
-                                            <th>Class-1<br><small class="text-muted">2.5 kg/cm²</small></th>
-                                            <th>Class-2<br><small class="text-muted">4.0 kg/cm²</small></th>
-                                            <th>Class-3<br><small class="text-muted">6.0 kg/cm²</small></th>
-                                            <th>Class-4<br><small class="text-muted">8.0 kg/cm²</small></th>
-                                            <th>Class-5<br><small class="text-muted">10.0 kg/cm²</small></th>
+                                            <th>Class-1<br><small class="text-muted">2.5 kg/cm�</small></th>
+                                            <th>Class-2<br><small class="text-muted">4.0 kg/cm�</small></th>
+                                            <th>Class-3<br><small class="text-muted">6.0 kg/cm�</small></th>
+                                            <th>Class-4<br><small class="text-muted">8.0 kg/cm�</small></th>
+                                            <th>Class-5<br><small class="text-muted">10.0 kg/cm�</small></th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td><strong>½"</strong></td>
+                                            <td><strong>�"</strong></td>
                                             <td>20</td>
-                                            <td>—</td>
-                                            <td>—</td>
-                                            <td>—</td>
-                                            <td>—</td>
-                                            <td>₹20.00</td>
+                                            <td>�</td>
+                                            <td>�</td>
+                                            <td>�</td>
+                                            <td>�</td>
+                                            <td>?20.00</td>
                                         </tr>
                                         <tr>
-                                            <td><strong>¾"</strong></td>
+                                            <td><strong>�"</strong></td>
                                             <td>25</td>
-                                            <td>—</td>
-                                            <td>—</td>
-                                            <td>—</td>
-                                            <td>₹26.67</td>
-                                            <td>₹30.00</td>
+                                            <td>�</td>
+                                            <td>�</td>
+                                            <td>�</td>
+                                            <td>?26.67</td>
+                                            <td>?30.00</td>
                                         </tr>
                                         <tr>
                                             <td><strong>1"</strong></td>
                                             <td>32</td>
-                                            <td>—</td>
-                                            <td>—</td>
-                                            <td>—</td>
-                                            <td>₹46.34</td>
-                                            <td>₹50.00</td>
+                                            <td>�</td>
+                                            <td>�</td>
+                                            <td>�</td>
+                                            <td>?46.34</td>
+                                            <td>?50.00</td>
                                         </tr>
                                         <tr>
-                                            <td><strong>1¼"</strong></td>
+                                            <td><strong>1�"</strong></td>
                                             <td>40</td>
-                                            <td>—</td>
-                                            <td>—</td>
-                                            <td>₹50.00</td>
-                                            <td>₹66.67</td>
-                                            <td>₹76.67</td>
+                                            <td>�</td>
+                                            <td>�</td>
+                                            <td>?50.00</td>
+                                            <td>?66.67</td>
+                                            <td>?76.67</td>
                                         </tr>
                                         <tr>
-                                            <td><strong>1½"</strong></td>
+                                            <td><strong>1�"</strong></td>
                                             <td>50</td>
-                                            <td>—</td>
-                                            <td>—</td>
-                                            <td>₹76.68</td>
-                                            <td>₹106.67</td>
-                                            <td>₹121.68</td>
+                                            <td>�</td>
+                                            <td>�</td>
+                                            <td>?76.68</td>
+                                            <td>?106.67</td>
+                                            <td>?121.68</td>
                                         </tr>
                                         <tr>
                                             <td><strong>2"</strong></td>
                                             <td>63</td>
-                                            <td>—</td>
-                                            <td>₹90.00</td>
-                                            <td>₹127.00</td>
-                                            <td>₹160.00</td>
-                                            <td>₹191.50</td>
+                                            <td>�</td>
+                                            <td>?90.00</td>
+                                            <td>?127.00</td>
+                                            <td>?160.00</td>
+                                            <td>?191.50</td>
                                         </tr>
                                         <tr>
-                                            <td><strong>2½"</strong></td>
+                                            <td><strong>2�"</strong></td>
                                             <td>75</td>
-                                            <td>—</td>
-                                            <td>₹123.33</td>
-                                            <td>₹176.68</td>
-                                            <td>₹233.30</td>
-                                            <td>₹273.34</td>
+                                            <td>�</td>
+                                            <td>?123.33</td>
+                                            <td>?176.68</td>
+                                            <td>?233.30</td>
+                                            <td>?273.34</td>
                                         </tr>
                                         <tr>
                                             <td><strong>3"</strong></td>
                                             <td>90</td>
-                                            <td>₹120.00</td>
-                                            <td>₹180.00</td>
-                                            <td>₹260.00</td>
-                                            <td>₹333.33</td>
-                                            <td>₹395.00</td>
+                                            <td>?120.00</td>
+                                            <td>?180.00</td>
+                                            <td>?260.00</td>
+                                            <td>?333.33</td>
+                                            <td>?395.00</td>
                                         </tr>
                                         <tr>
                                             <td><strong>4"</strong></td>
                                             <td>110</td>
-                                            <td>₹173.33</td>
-                                            <td>₹260.00</td>
-                                            <td>₹380.00</td>
-                                            <td>₹500.00</td>
-                                            <td>₹600.00</td>
+                                            <td>?173.33</td>
+                                            <td>?260.00</td>
+                                            <td>?380.00</td>
+                                            <td>?500.00</td>
+                                            <td>?600.00</td>
                                         </tr>
                                         <tr>
-                                            <td><strong>4½"</strong></td>
+                                            <td><strong>4�"</strong></td>
                                             <td>125</td>
-                                            <td>₹200.00</td>
-                                            <td>₹316.66</td>
-                                            <td>₹483.33</td>
-                                            <td>₹633.34</td>
-                                            <td>₹760.00</td>
+                                            <td>?200.00</td>
+                                            <td>?316.66</td>
+                                            <td>?483.33</td>
+                                            <td>?633.34</td>
+                                            <td>?760.00</td>
                                         </tr>
                                         <tr>
                                             <td><strong>5"</strong></td>
                                             <td>140</td>
-                                            <td>₹266.67</td>
-                                            <td>₹430.00</td>
-                                            <td>₹630.00</td>
-                                            <td>₹816.67</td>
-                                            <td>₹950.00</td>
+                                            <td>?266.67</td>
+                                            <td>?430.00</td>
+                                            <td>?630.00</td>
+                                            <td>?816.67</td>
+                                            <td>?950.00</td>
                                         </tr>
                                         <tr>
                                             <td><strong>6"</strong></td>
                                             <td>160</td>
-                                            <td>₹350.00</td>
-                                            <td>₹566.67</td>
-                                            <td>₹816.66</td>
-                                            <td>₹1033.33</td>
-                                            <td>₹1267.00</td>
+                                            <td>?350.00</td>
+                                            <td>?566.67</td>
+                                            <td>?816.66</td>
+                                            <td>?1033.33</td>
+                                            <td>?1267.00</td>
                                         </tr>
                                         <tr>
                                             <td><strong>7"</strong></td>
                                             <td>180</td>
-                                            <td>₹433.34</td>
-                                            <td>₹726.67</td>
-                                            <td>₹1043.33</td>
-                                            <td>₹1340.00</td>
-                                            <td>₹1563.35</td>
+                                            <td>?433.34</td>
+                                            <td>?726.67</td>
+                                            <td>?1043.33</td>
+                                            <td>?1340.00</td>
+                                            <td>?1563.35</td>
                                         </tr>
                                         <tr>
                                             <td><strong>8"</strong></td>
                                             <td>200</td>
-                                            <td>₹533.34</td>
-                                            <td>₹885.00</td>
-                                            <td>₹1295.00</td>
-                                            <td>₹1666.67</td>
-                                            <td>₹2000.00</td>
+                                            <td>?533.34</td>
+                                            <td>?885.00</td>
+                                            <td>?1295.00</td>
+                                            <td>?1666.67</td>
+                                            <td>?2000.00</td>
                                         </tr>
                                         <tr>
                                             <td><strong>9"</strong></td>
                                             <td>225</td>
-                                            <td>₹660.00</td>
-                                            <td>₹1130.00</td>
-                                            <td>₹1634.33</td>
-                                            <td>₹2100.00</td>
-                                            <td>₹2500.00</td>
+                                            <td>?660.00</td>
+                                            <td>?1130.00</td>
+                                            <td>?1634.33</td>
+                                            <td>?2100.00</td>
+                                            <td>?2500.00</td>
                                         </tr>
                                         <tr>
                                             <td><strong>10"</strong></td>
                                             <td>250</td>
-                                            <td>₹833.35</td>
-                                            <td>₹1380.00</td>
-                                            <td>₹2040.00</td>
-                                            <td>₹2566.70</td>
-                                            <td>₹3133.35</td>
+                                            <td>?833.35</td>
+                                            <td>?1380.00</td>
+                                            <td>?2040.00</td>
+                                            <td>?2566.70</td>
+                                            <td>?3133.35</td>
                                         </tr>
                                         <tr>
                                             <td><strong>11"</strong></td>
                                             <td>280</td>
-                                            <td>₹1116.65</td>
-                                            <td>₹1750.00</td>
-                                            <td>₹2563.67</td>
-                                            <td>₹3200.00</td>
-                                            <td>₹3933.34</td>
+                                            <td>?1116.65</td>
+                                            <td>?1750.00</td>
+                                            <td>?2563.67</td>
+                                            <td>?3200.00</td>
+                                            <td>?3933.34</td>
                                         </tr>
                                         <tr>
                                             <td><strong>12"</strong></td>
                                             <td>315</td>
-                                            <td>₹1333.34</td>
-                                            <td>₹2221.00</td>
-                                            <td>₹3266.66</td>
-                                            <td>₹4033.33</td>
-                                            <td>₹4833.50</td>
+                                            <td>?1333.34</td>
+                                            <td>?2221.00</td>
+                                            <td>?3266.66</td>
+                                            <td>?4033.33</td>
+                                            <td>?4833.50</td>
                                         </tr>
                                         <tr>
                                             <td><strong>14"</strong></td>
                                             <td>355</td>
-                                            <td>₹1740.00</td>
-                                            <td>₹2740.00</td>
-                                            <td>₹4008.65</td>
-                                            <td>—</td>
-                                            <td>—</td>
+                                            <td>?1740.00</td>
+                                            <td>?2740.00</td>
+                                            <td>?4008.65</td>
+                                            <td>�</td>
+                                            <td>�</td>
                                         </tr>
                                         <tr>
                                             <td><strong>16"</strong></td>
                                             <td>400</td>
-                                            <td>₹2237.96</td>
-                                            <td>₹3480.83</td>
-                                            <td>₹5105.70</td>
-                                            <td>—</td>
-                                            <td>—</td>
+                                            <td>?2237.96</td>
+                                            <td>?3480.83</td>
+                                            <td>?5105.70</td>
+                                            <td>�</td>
+                                            <td>�</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                         <div class="card-footer bg-white text-muted small py-3">
-                            * Note: "—" indicates sizes that are not manufactured or not applicable for that specific pressure rating/class.
+                            * Note: "�" indicates sizes that are not manufactured or not applicable for that specific pressure rating/class.
                         </div>
                     </div>
                 </div>
@@ -311,69 +311,69 @@ include 'header.php';
                                             <thead class="table-light">
                                                 <tr>
                                                     <th>Size (mm)</th>
-                                                    <th>Rate per Piece (₹)</th>
+                                                    <th>Rate per Piece (?)</th>
                                                     <th>Standard Packing</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td><strong>63 MM</strong></td>
-                                                    <td>₹18.00</td>
+                                                    <td>?18.00</td>
                                                     <td>500 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>75 MM</strong></td>
-                                                    <td>₹25.00</td>
+                                                    <td>?25.00</td>
                                                     <td>300 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>90 MM</strong></td>
-                                                    <td>₹37.50</td>
+                                                    <td>?37.50</td>
                                                     <td>200 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>110 MM</strong></td>
-                                                    <td>₹55.50</td>
+                                                    <td>?55.50</td>
                                                     <td>100 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>140 MM</strong></td>
-                                                    <td>₹131.00</td>
+                                                    <td>?131.00</td>
                                                     <td>50 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>160 MM</strong></td>
-                                                    <td>₹185.00</td>
+                                                    <td>?185.00</td>
                                                     <td>40 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>180 MM</strong></td>
-                                                    <td>₹260.00</td>
+                                                    <td>?260.00</td>
                                                     <td>30 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>200 MM</strong></td>
-                                                    <td>₹339.00</td>
+                                                    <td>?339.00</td>
                                                     <td>21 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>225 MM</strong></td>
-                                                    <td>₹520.00</td>
+                                                    <td>?520.00</td>
                                                     <td>15 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>250 MM</strong></td>
-                                                    <td>₹590.00</td>
+                                                    <td>?590.00</td>
                                                     <td>10 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>280 MM</strong></td>
-                                                    <td>₹988.00</td>
+                                                    <td>?988.00</td>
                                                     <td>10 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>315 MM</strong></td>
-                                                    <td>₹1248.00</td>
+                                                    <td>?1248.00</td>
                                                     <td>5 NOS</td>
                                                 </tr>
                                             </tbody>
@@ -399,79 +399,79 @@ include 'header.php';
                                             <thead class="table-light">
                                                 <tr>
                                                     <th>Size (mm)</th>
-                                                    <th>Rate per Piece (₹)</th>
+                                                    <th>Rate per Piece (?)</th>
                                                     <th>Standard Packing</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td><strong>63 MM</strong></td>
-                                                    <td>₹20.00</td>
+                                                    <td>?20.00</td>
                                                     <td>500 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>75 MM</strong></td>
-                                                    <td>₹30.00</td>
+                                                    <td>?30.00</td>
                                                     <td>300 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>90 MM</strong></td>
-                                                    <td>₹48.00</td>
+                                                    <td>?48.00</td>
                                                     <td>200 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>110 MM</strong></td>
-                                                    <td>₹75.00</td>
+                                                    <td>?75.00</td>
                                                     <td>100 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>140 MM</strong></td>
-                                                    <td>₹180.00</td>
+                                                    <td>?180.00</td>
                                                     <td>50 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>160 MM</strong></td>
-                                                    <td>₹205.00</td>
+                                                    <td>?205.00</td>
                                                     <td>40 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>180 MM</strong></td>
-                                                    <td>₹310.00</td>
+                                                    <td>?310.00</td>
                                                     <td>30 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>200 MM</strong></td>
-                                                    <td>₹399.50</td>
+                                                    <td>?399.50</td>
                                                     <td>21 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>225 MM</strong></td>
-                                                    <td>₹715.50</td>
+                                                    <td>?715.50</td>
                                                     <td>15 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>250 MM</strong></td>
-                                                    <td>₹978.00</td>
+                                                    <td>?978.00</td>
                                                     <td>10 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>280 MM</strong></td>
-                                                    <td>₹1340.00</td>
+                                                    <td>?1340.00</td>
                                                     <td>10 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>315 MM</strong></td>
-                                                    <td>₹1765.00</td>
+                                                    <td>?1765.00</td>
                                                     <td>5 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>355 MM</strong></td>
-                                                    <td>₹2830.00</td>
+                                                    <td>?2830.00</td>
                                                     <td>5 NOS</td>
                                                 </tr>
                                                 <tr>
                                                     <td><strong>400 MM</strong></td>
-                                                    <td>₹3950.00</td>
+                                                    <td>?3950.00</td>
                                                     <td>5 NOS</td>
                                                 </tr>
                                             </tbody>
@@ -490,7 +490,7 @@ include 'header.php';
     <?php include 'terms-conditions.php'; ?>
 
     <!-- Footer -->
-    <footer class="footer bg-secondary-color text-white pt-5 pb-3">
+    <footer class="footer bg-primary-color text-white pt-5 pb-3">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
@@ -525,7 +525,7 @@ include 'header.php';
                     <ul class="list-unstyled contact-info">
                         <li class="mb-3 d-flex align-items-start">
                             <i class="fas fa-map-marker-alt text-accent me-3 mt-1"></i>
-                            <span class="text-light-opacity">338/01, Majara Chokdi, NH-48, Vill & Ta – Tajpur, Prantij, Sabarkantha, Gujarat - 383205</span>
+                            <span class="text-light-opacity">338/01, Majara Chokdi, NH-48, Vill & Ta � Tajpur, Prantij, Sabarkantha, Gujarat - 383205</span>
                         </li>
                         <li class="mb-3 d-flex align-items-start">
                             <i class="fas fa-phone-alt text-accent me-3 mt-1"></i>

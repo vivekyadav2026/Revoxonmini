@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $page_title = "Photo Gallery | Revoxon Industries Pvt. Ltd.";
 $page_description = "Learn about Revoxon Industries Pvt. Ltd., our vision, mission, and our journey as a leading manufacturer of PVC and UPVC pipes in India.";
 include 'header.php';
@@ -6,7 +6,7 @@ include 'header.php';
 
     <!-- Main Content -->
     <main>
-<section class="page-banner bg-primary-color text-white py-5 text-center" style="background: linear-gradient(rgba(10, 77, 162, 0.85), rgba(30, 41, 59, 0.9)), url('assets/images/banner1.png') center/cover;">
+<section class="page-banner bg-primary-color text-white py-5 text-center" style="background: url('assets/images/banner1.png') center/cover;">
         <div class="container py-4">
             <h1 class="display-5 fw-bold animation-fade-up text-white">Our Photo Gallery</h1>
             <nav aria-label="breadcrumb" class="animation-fade-up delay-1">
@@ -20,7 +20,7 @@ include 'header.php';
     <style>
     .gallery-card {
         position: relative;
-        border-radius: 12px;
+        border-radius: 8px;
         overflow: hidden;
     }
     .gallery-card-overlay {
@@ -28,30 +28,31 @@ include 'header.php';
         bottom: 0;
         left: 0;
         right: 0;
-        background: linear-gradient(transparent, rgba(10, 77, 162, 0.95));
+        background: linear-gradient(transparent, rgba(15, 23, 42, 0.9));
         opacity: 0;
-        transition: opacity 0.35s ease;
+        transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1);
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         padding: 1.5rem;
         z-index: 2;
-        pointer-events: none; /* Allows clicks to pass through to the image */
+        pointer-events: none;
     }
     .gallery-card:hover .gallery-card-overlay {
         opacity: 1;
     }
     .nav-pills .nav-link {
-        color: var(--secondary-color, #1e293b);
-        border: 1px solid rgba(0,0,0,0.1);
+        color: var(--secondary-color);
+        border: 1px solid #e2e8f0;
         background: #f8fafc;
+        border-radius: 30px;
     }
     .nav-pills .nav-link.active {
-        background-color: var(--primary-color, #0a4da2) !important;
+        background-color: var(--primary-color) !important;
         color: white !important;
-        border-color: var(--primary-color, #0a4da2) !important;
-        box-shadow: 0 4px 15px rgba(10, 77, 162, 0.3);
+        border-color: var(--primary-color) !important;
+        box-shadow: none;
     }
     </style>
 
@@ -168,7 +169,7 @@ include 'header.php';
 </main></main>
 
     <!-- Footer -->
-    <footer class="footer bg-secondary-color text-white pt-5 pb-3">
+    <footer class="footer bg-primary-color text-white pt-5 pb-3">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">

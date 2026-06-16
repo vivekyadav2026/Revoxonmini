@@ -1,11 +1,11 @@
-﻿<?php
+<?php
 $page_title = "FAQ | Revoxon Industries Pvt. Ltd.";
 $page_description = "";
 include 'header.php';
 ?>
 
     <main>
-        <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: linear-gradient(rgba(10, 77, 162, 0.85), rgba(30, 41, 59, 0.9)), url('assets/images/banner1.png') center/cover;">
+        <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: url('assets/images/banner1.png') center/cover;">
             <div class="container py-4">
                 <h1 class="display-5 fw-bold animation-fade-up">Frequently Asked Questions</h1>
                 <nav aria-label="breadcrumb" class="animation-fade-up delay-1">
@@ -30,7 +30,7 @@ include 'header.php';
                                 </h2>
                                 <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body text-muted">
-                                        UPVC (Unplasticized Polyvinyl Chloride) is ideal for cold water applications, while CPVC (Chlorinated Polyvinyl Chloride) can handle both hot and cold water, withstanding temperatures up to 93°C.
+                                        UPVC (Unplasticized Polyvinyl Chloride) is ideal for cold water applications, while CPVC (Chlorinated Polyvinyl Chloride) can handle both hot and cold water, withstanding temperatures up to 93�C.
                                     </div>
                                 </div>
                             </div>

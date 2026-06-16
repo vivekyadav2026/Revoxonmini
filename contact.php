@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $page_title = "Contact Us | Revoxon Industries Pvt. Ltd.";
 $page_description = "Contact Revoxon Industries for product inquiries, dealer applications, or general questions. Find our office address, phone number, and email.";
 include 'header.php';
@@ -7,7 +7,7 @@ include 'header.php';
     <!-- Main Content -->
     <main>
         <!-- Page Banner -->
-        <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: linear-gradient(rgba(10, 77, 162, 0.85), rgba(30, 41, 59, 0.9)), url('assets/images/banner1.png') center/cover;">
+        <section class="page-banner bg-primary-color text-white py-5 text-center" style="background: url('assets/images/banner1.png') center/cover;">
             <div class="container py-4">
                 <h1 class="display-5 fw-bold animation-fade-up">Contact Us</h1>
                 <nav aria-label="breadcrumb" class="animation-fade-up delay-1">
@@ -121,7 +121,7 @@ include 'header.php';
     </main>
 
     <!-- Footer -->
-    <footer class="footer bg-secondary-color text-white pt-5 pb-3">
+    <footer class="footer bg-primary-color text-white pt-5 pb-3">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
@@ -156,7 +156,7 @@ include 'header.php';
                     <ul class="list-unstyled contact-info">
                         <li class="mb-3 d-flex align-items-start">
                             <i class="fas fa-map-marker-alt text-accent me-3 mt-1"></i>
-                            <span class="text-light-opacity">338/01, Majara Chokdi, NH-48, Vill & Ta – Tajpur, Prantij, Sabarkantha, Gujarat - 383205</span>
+                            <span class="text-light-opacity">338/01, Majara Chokdi, NH-48, Vill & Ta � Tajpur, Prantij, Sabarkantha, Gujarat - 383205</span>
                         </li>
                         <li class="mb-3 d-flex align-items-start">
                             <i class="fas fa-phone-alt text-accent me-3 mt-1"></i>
