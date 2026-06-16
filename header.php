@@ -49,7 +49,7 @@ $currentPage = basename($_SERVER['SCRIPT_NAME']);
             <nav class="navbar navbar-expand-lg navbar-light py-3">
                 <a class="navbar-brand d-flex align-items-center" href="index.php">
                     <img src="assets/images/logo/logo.jpeg" alt="Revoxon Industries" style="height: 50px; border-radius: 4px;" class="me-2">
-                    <span class="fw-bold fs-4 text-navy-dark d-none d-sm-inline"><span class="text-orange-accent">REVOXON</span> INDUSTRIES</span>
+                    <span class="fw-bold fs-4 text-orange-accent d-none d-sm-inline">REVOXON</span>
                 </a>
                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
