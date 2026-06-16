@@ -42,31 +42,56 @@ document.addEventListener('DOMContentLoaded', function() {
 
     animateElements.forEach(el => observer.observe(el));
 
-    // Fix for Bootstrap Dropdown Parent Click
-    const dropdownLinks = document.querySelectorAll('.dropdown-toggle');
-    dropdownLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            // If it has a real href and it's not just '#'
+    // Fix for Bootstrap Dropdown Parent Click & Touch Toggle (Safe, crash-free implementation)
+    function handleDropdownClick(e) {
+        if (window.innerWidth >= 992) {
+            // On desktop, navigate directly
             if (this.getAttribute('href') && this.getAttribute('href') !== '#') {
-                // Navigate to the link
                 window.location.href = this.getAttribute('href');
             }
-        });
-        
-        // Add hover to open dropdown on desktop for better UX since click navigates
-        link.addEventListener('mouseenter', function() {
-            if (window.innerWidth >= 992) {
-                let dropdown = new bootstrap.Dropdown(this);
-                dropdown.show();
+        } else {
+            // On mobile, override Bootstrap and toggle inline dropdown menu
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            
+            const dropdownMenu = this.nextElementSibling;
+            if (dropdownMenu) {
+                const isShown = dropdownMenu.classList.contains('show');
+                
+                // Toggle this dropdown menu
+                if (isShown) {
+                    dropdownMenu.classList.remove('show');
+                    this.classList.remove('show');
+                    this.setAttribute('aria-expanded', 'false');
+                } else {
+                    dropdownMenu.classList.add('show');
+                    this.classList.add('show');
+                    this.setAttribute('aria-expanded', 'true');
+                }
             }
-        });
-        
-        const parentLi = link.parentElement;
-        parentLi.addEventListener('mouseleave', function() {
-            if (window.innerWidth >= 992) {
-                let dropdown = bootstrap.Dropdown.getInstance(link);
-                if (dropdown) dropdown.hide();
+        }
+    }
+
+    function initDropdowns() {
+        const dropdownLinks = document.querySelectorAll('.dropdown-toggle');
+        dropdownLinks.forEach(link => {
+            if (window.innerWidth < 992) {
+                link.removeAttribute('data-bs-toggle');
+            } else {
+                link.setAttribute('data-bs-toggle', 'dropdown');
             }
+            // Clear existing bindings first to prevent multiple click events
+            link.removeEventListener('click', handleDropdownClick);
+            link.addEventListener('click', handleDropdownClick);
         });
+    }
+
+    // Run on load and on resize safely
+    initDropdowns();
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(initDropdowns, 150);
     });
 });
